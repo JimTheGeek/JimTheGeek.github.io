@@ -40,6 +40,7 @@ Then clone it to your local machine and run:
 ```console
 $ bundle
 ```
+[![Build and Deploy](https://github.com/JimTheGeek/JimTheGeek.github.io/actions/workflows/pages-deploy.yml/badge.svg)](https://github.com/JimTheGeek/JimTheGeek.github.io/actions/workflows/pages-deploy.yml)
 
 ## Usage
 
