@@ -1,6 +1,7 @@
 ---
+title: Let's make this blog work for me
 created: 2024-11-14T18:29:27+11:00
-modified: 2024-11-14T18:44:45+11:00
+modified: 2024-11-15T06:37:50+11:00
 categories: [Personal]
 ---
 
