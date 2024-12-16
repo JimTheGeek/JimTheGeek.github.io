@@ -165,6 +165,9 @@ kramdown:
       start_line: 1
 
 collections:
+  til:
+    output: true
+    permalink: /:collection/:path/
   tabs:
     output: true
     sort_by: order
@@ -194,6 +197,16 @@ defaults:
       path: assets/js/dist
     values:
       swcache: true
+  # _til
+  - scope:
+      path: ""
+      type: til
+    values:
+      layout: single
+      author_profile: true
+      related: true
+      read_time: true
+      comments: true
 
 sass:
   style: compressed
