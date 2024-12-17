@@ -204,6 +204,7 @@ defaults:
       type: posts
     values:
       layout: post # previously single then page
+      permalink: /til/:title/
       author_profile: true
       related: true
       read_time: true
