@@ -201,7 +201,7 @@ defaults:
   # _til
   - scope:
       path: ""
-      type: til
+      type: posts
     values:
       layout: post # previously single then page
       author_profile: true
