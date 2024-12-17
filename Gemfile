@@ -15,3 +15,5 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 #add another theme
 gem "minimal-mistakes-jekyll"
+
+gem "base64"
