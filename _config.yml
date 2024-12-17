@@ -203,7 +203,7 @@ defaults:
       path: ""
       type: til
     values:
-      layout: archives # previously single then page
+      layout: post # previously single then page
       author_profile: true
       related: true
       read_time: true
