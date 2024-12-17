@@ -202,7 +202,7 @@ defaults:
       path: ""
       type: til
     values:
-      layout: page # previously single
+      layout: single # previously single then page
       author_profile: true
       related: true
       read_time: true
