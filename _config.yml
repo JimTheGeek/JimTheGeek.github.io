@@ -169,6 +169,7 @@ collections:
   til:
     output: true
     permalink: /:collection/:path/
+
   tabs:
     output: true
     sort_by: order
@@ -201,10 +202,10 @@ defaults:
   # _til
   - scope:
       path: ""
-      type: posts
+      type: til
     values:
       layout: til # previously single then page
-      permalink: /til/:title/
+#      permalink: /til/:title/
       author_profile: true
       related: true
       read_time: true
