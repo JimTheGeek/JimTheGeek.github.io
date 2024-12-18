@@ -200,16 +200,16 @@ defaults:
     values:
       swcache: true
   # _til
-#  - scope:
-#      path: ""
-#      type: til
-#    values:
-#      layout: til # previously single then page
-#      permalink: /til/:title/
-#      author_profile: true
-#      related: true
-#      read_time: true
-#      comments: true
+  - scope:
+      path: ""
+      type: til
+    values:
+      layout: til # previously single then page
+      permalink: /til/:title/
+      author_profile: true
+      related: true
+      read_time: true
+      comments: true
 
 sass:
   style: compressed
