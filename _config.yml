@@ -168,7 +168,7 @@ kramdown:
 collections:
   til:
     output: true
-    permalink: /:collection/:path/
+    permalink: /:collection/:title/
 
   tabs:
     output: true
@@ -200,16 +200,16 @@ defaults:
     values:
       swcache: true
   # _til
-  - scope:
-      path: ""
-      type: til
-    values:
-      layout: til # previously single then page
+#  - scope:
+#      path: ""
+#      type: til
+#    values:
+#      layout: til # previously single then page
 #      permalink: /til/:title/
-      author_profile: true
-      related: true
-      read_time: true
-      comments: true
+#      author_profile: true
+#      related: true
+#      read_time: true
+#      comments: true
 
 sass:
   style: compressed
