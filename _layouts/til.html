@@ -1,28 +1,12 @@
 ---
-layout: home
-title: "TIL - Today I Learned"
-permalink: /til/
+layout: page
+
 ---
 
-<div class="grid__wrapper">
-  {% for post in site.til reversed %}
-    {% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-{% else %}
-  {% assign teaser = site.teaser %}
-{% endif %}
+<div class="cookie">
+  <h2><img src="{{ page.image_path }}" alt="page.title" />{{ page.title }}</h2>
 
-{% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-{% else %}
-  {% assign title = post.title %}
-{% endif %}
-
-  <h2>
-    {{ post.title }}
-  </h2>
-   <div class="content">
-     {{ post.content | markdownify }}
-   </div>
-  {% endfor %}
-
+  <div class="blog-post spacing">
+    {{ content }}
+  </div>
+</div>
