@@ -4,4 +4,4 @@ title:  "Avalanche - Active Directory ACL Visualizer and Explorer"
 teaser: "Bloodhound alternative "
 categories: [til]
 ---
-Alternative tool to bloodhound: https://github.com/lkarlslund/Adalanche?tab=readme-ov-file
+Alternative tool to bloodhound: [Avalanche](https://github.com/lkarlslund/Adalanche?tab=readme-ov-file)
