@@ -1,7 +1,7 @@
 ---
 layout: mytils
 title: "TIL - Today I Learned"
-permalink: /til/
+permalink: /tils/
 order: 6
 ---
 
