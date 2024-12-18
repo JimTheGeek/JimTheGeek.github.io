@@ -26,5 +26,9 @@
   // Run tasks in macOS
   "terminal.integrated.profiles.osx": {
     "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] }
-  }
+  },
+  "github-actions.workflows.pinned.workflows": [
+    "Build and Deploy",
+    ".github/workflows/pages-deploy.yml"
+  ]
 }
