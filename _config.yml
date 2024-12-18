@@ -205,7 +205,6 @@ defaults:
       type: til
     values:
       layout: til # previously single then page
-      permalink: /til/:title/
       author_profile: true
       related: true
       read_time: true
