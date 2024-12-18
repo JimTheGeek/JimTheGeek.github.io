@@ -2,6 +2,7 @@
 # the default layout is 'page'
 icon: fas fa-question-circle
 order: 5
+permalink: "/til/"
 ---
 
 ## Locksmith
