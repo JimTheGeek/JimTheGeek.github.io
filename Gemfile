@@ -21,4 +21,4 @@ gem "base64"
 #gem "github-pages", group: :jekyll_plugins
 #gem "jekyll-include-cache", group: :jekyll_plugins
 
-gem jekyll-paginate-v2 
+gem "jekyll-paginate-v2"
