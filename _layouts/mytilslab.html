@@ -50,7 +50,7 @@ refactor: true
 <div id="post-list" class="flex-grow-1 px-xl-1">
   {% for post in site.til %}
     <article class="card-wrapper card">
-      <div class="post-preview row g-0 flex-md-row-reverse">
+      <a href="{{ post.url_ext }}" class="post-preview row g-0 flex-md-row-reverse">
         {% assign card_body_col = '12' %}
 
         {% if post.image %}
@@ -100,7 +100,7 @@ refactor: true
           </div>
           <!-- .card-body -->
         </div>
-      </div>
+      </a>
     </article>
   {% endfor %}
 </div>
